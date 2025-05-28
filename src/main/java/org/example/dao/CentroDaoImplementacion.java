@@ -68,6 +68,10 @@ public class CentroDaoImplementacion implements CentroDao{
 
     @Override
     public int eliminarCentrosPorAnyo(int anyo) {
+        //int inicial = centros.size();
+        //centros.removeIf(c -> c.getAnyoConstruccion() < anyo);
+        //return inicial - centros.size();
+
         int contador = 0;
         Iterator<CentroOcio> it = centros.iterator();
 
