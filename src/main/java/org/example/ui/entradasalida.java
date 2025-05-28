@@ -15,6 +15,7 @@ import java.util.Scanner;
 public class entradasalida {
     private final Scanner sc= new Scanner(System.in);
     private final GestionCentroOcio gestionCentroOcio= new GestionCentroOcioImplementacion();
+    //GestionCentroOcio gestionCentroOcio= new GestionCentroOcioImplementacion();
 
     public void iniciarAplicacion() {
         int opcion;
